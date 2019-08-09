@@ -1,14 +1,14 @@
 # pro01.py
 viji = int(input())
-s=[]
+sg=[]
 for i in range(0,viji):
- lan=input()
- s.append(lan)
-vg=[]
-for i in zip(*s):
+ lan1=input()
+ sg.append(lan1)
+tsp=[]
+for i in zip(*sg):
  if(i.count(i[0])==len(i)):
-  vg.append(i[0])
+  tsp.append(i[0])
  
  else:
   break
-print(''.join(vg))
+print(''.join(tsp))
